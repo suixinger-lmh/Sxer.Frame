@@ -1,0 +1,11 @@
+{
+	"name": "com.sxer.frame",
+	"displayName": "SxerFramework",
+	"description": "Self Used Unity Framework.",
+	"version": "0.0.1",
+	"unity": "2019.4",
+	"dependencies": {
+		"com.sxer.tool.xmlhelper":"git@github.com:suixinger-lmh/Sxer.Tool.XMLHelper.git#upm",
+		"com.sxer.tool.debuglogger":"git@github.com:suixinger-lmh/Sxer.Tool.Debuglogger.git#upm"
+	}
+}

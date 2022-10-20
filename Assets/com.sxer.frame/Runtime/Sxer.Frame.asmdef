@@ -1,0 +1,16 @@
+{
+    "name": "Sxer.Frame",
+    "references": [
+        "GUID:0b9be75ef578c624dbcd07a1f0b41d17",
+        "GUID:b8c63d5b5ea83ce4083d4a8df9bea797"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
