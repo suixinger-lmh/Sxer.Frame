@@ -128,6 +128,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 214704498, guid: a554f38034280774c82dcf43b76d24dc, type: 3}
+      propertyPath: baseInitTemplates.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 214704498, guid: a554f38034280774c82dcf43b76d24dc, type: 3}
+      propertyPath: baseInitTemplates.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6133931394275825464, guid: a554f38034280774c82dcf43b76d24dc,
         type: 3}
       propertyPath: m_RootOrder

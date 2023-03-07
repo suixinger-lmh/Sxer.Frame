@@ -6,18 +6,18 @@ using UnityEngine.SceneManagement;
 
 namespace Sxer.Frame.Func.Process.InitGoSceneProcess
 {
-    public class DataLoadProcess : MonoBehaviour, IBaseInitTemplate
+    /// <summary>
+    /// 功能：进入场景前进行数据加载
+    /// </summary>
+    public class DataLoadProcess : InitGoSceneProcessBase
     {
-        public string afterLoadedScene;
 
-        public void Init()
+        public override void Init()
         {
-            //////做进入场景前的初始化操作
-            //////
-
-            ///进入场景
-            SceneManager.LoadScene(afterLoadedScene);
+            Debug.Log("进入");
+            base.Init();
         }
+
         void OnDestroy()
         {
         }

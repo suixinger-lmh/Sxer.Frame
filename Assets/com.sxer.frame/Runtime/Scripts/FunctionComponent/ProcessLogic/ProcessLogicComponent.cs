@@ -34,7 +34,7 @@ namespace Sxer.Frame.Func.Process
 
 
         public LogicType processLogicType = LogicType.XMLProcess;
-
+         
 
         [HideInInspector]
         public LogicBase logicInstance;
